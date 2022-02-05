@@ -1,0 +1,97 @@
+a:hover,
+.btn:hover {
+    color: #fff;
+}
+
+.info__title:hover {
+    color: var(--title);
+}
+
+.info__link:hover {
+    color: #313131;
+}
+
+.logl__link:hover {
+    color: var(--text);
+}
+
+.logl__link:focus~.info,
+.info:hover {
+    display: block;
+}
+
+.info__title:hover {
+    text-decoration-line: underline;
+}
+
+.phones__card:hover {
+    box-shadow: var(--phone-boxSHadow);
+    color: var(--text);
+}
+
+.phones__card:hover .phones__minButton {
+    display: flex;
+}
+
+.phones__card:hover .minImg {
+    display: block;
+}
+
+.phones__card:hover .minImg-light {
+    display: inline-block;
+}
+
+.phones__card:hover .minImg-dark {
+    display: none;
+}
+
+
+
+.laptops__card:hover {
+    box-shadow: var(--phone-boxSHadow);
+}
+
+.laptops__card:hover .phones__minButton {
+    display: flex;
+}
+
+.laptops__card:hover .minImg {
+    display: block;
+}
+
+.laptops__card:hover .minImg-light {
+    display: inline-block;
+}
+
+.laptops__card:hover .minImg-dark {
+    display: none;
+}
+
+
+.seller__card:hover {
+    box-shadow: var(--phone-boxSHadow);
+}
+
+.seller__card:hover .phones__minButton {
+    display: flex;
+}
+
+.seller__card:hover .minImg {
+    display: block;
+}
+
+.seller__card:hover .minImg-light {
+    display: inline-block;
+}
+
+.seller__card:hover .minImg-dark {
+    display: none;
+}
+
+.phoneInfo__minBloc:hover {
+    box-shadow: var(--boxShadow-minBloc);
+}
+
+.phoneInfo__minBloc:focus {
+    box-shadow: var(--boxShadow-minBloc);
+}

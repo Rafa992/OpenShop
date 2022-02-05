@@ -1,0 +1,669 @@
+@media(prefers-color-scheme: dark) {
+    :root {
+        --body: #313131;
+        --text: #fff;
+        --title: #fff;
+        --navBg: #0C0C0C;
+        --dropdown-menu: #0C0C0C;
+        --dropLink: #BBBBBB;
+        --dropLink-active: #fff;
+        --drop-menu-boxSHadow: 0px 0px 2px rgba(255, 255, 255, 0.3);
+        --phone-boxSHadow: 0px 0px 2px rgba(255, 255, 255, 0.25);
+        --form-control-Bg: #313131;
+        --form-border-color: #fff;
+        --dotsActive: #fff;
+        --border-btn: #fff;
+        --footerBg: #0C0C0C;
+        --footer-form-bg: #fff;
+        --minImg: #313131;
+        --info-box: #0C0C0C;
+        --pageActive: #FFFFFF;
+        --boxShadow-minBloc: 0px 0px 2px rgba(255, 255, 255, 0.25);
+    }
+
+    .info__link:hover {
+        color: #fff;
+    }
+
+    .logo-light {
+        display: none;
+    }
+
+    .logo-dark {
+        display: inline-block;
+    }
+
+    .logoPS-light {
+        display: none !important;
+    }
+
+    .logoPS-dark {
+        display: inline-block;
+    }
+
+    .phones__card:hover .minImg-light {
+        display: none;
+    }
+
+    .phones__card:hover .minImg-dark {
+        display: inline-block;
+    }
+
+    .laptops__card:hover .minImg-light {
+        display: none;
+    }
+
+    .laptops__card:hover .minImg-dark {
+        display: inline-block;
+    }
+
+    .seller__card:hover .minImg-light {
+        display: none;
+    }
+
+    .seller__card:hover .minImg-dark {
+        display: inline-block;
+    }
+
+}
+
+@media(max-width: 1400px) {
+
+    .xbox__title {
+        font-size: 40px;
+    }
+
+    .xbox__desc {
+        font-size: 20px;
+    }
+
+    .xbox__table {
+        max-height: 185px;
+    }
+
+    .logo__links2 {
+        justify-content: center;
+    }
+
+    .logl__link2 {
+        margin: 0 10px;
+        line-height: 50px;
+        font-size: 16px;
+    }
+
+    .phoneInfo__shadow {
+        background: radial-gradient(60% 50%, rgba(255, 255, 255, 0.35), rgba(0, 0, 0, 0.0) 80%);
+    }
+
+    .phoneInfo__title {
+        line-height: 50px;
+        font-size: 25px;
+        margin: 40px 22px 20px 0;
+    }
+
+    .phoneInfo__price {
+        line-height: 50px;
+        font-size: 24px;
+    }
+
+    .phoneInfo__btn {
+        margin: 20px 25px 0 0;
+    }
+
+}
+
+
+
+@media(max-width: 1199px) {
+
+    .menu {
+        position: absolute;
+        top: 39px;
+        max-width: 185px;
+        width: 100%;
+        display: block;
+        margin-left: auto;
+    }
+
+    header .navbar-collapse {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: auto;
+        z-index: -1;
+    }
+
+    .menu__link {
+        margin-right: 0;
+        padding: 10px;
+        background: #313131;
+        text-align: center;
+    }
+
+    .dropdown-menu {
+        right: auto !important;
+        left: 29% !important;
+        top: 44px !important;
+    }
+
+    .logl__link {
+        line-height: 50px;
+        font-size: 16px;
+        margin: 0 10px;
+    }
+
+    .logl__link2 {
+        margin: 0 5px;
+        line-height: 30px;
+        font-size: 15px;
+    }
+
+    .slider__img {
+        max-width: 550px;
+    }
+
+    .slider__title {
+        margin-top: 30px;
+    }
+
+    .slider__btn {
+        margin-top: 50px;
+    }
+
+    .carousel-indicators {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .imgs__title {
+        line-height: 20px;
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .imgs__title.bottom {
+        line-height: 50px;
+    }
+
+    .imgs__title.Xiaomi {
+        line-height: 20px;
+    }
+
+    .imgs__price {
+        letter-spacing: normal;
+        line-height: 50px;
+        font-size: 18px;
+    }
+
+    .discount {
+        letter-spacing: normal;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        font-size: 18px;
+    }
+
+    .phones__btn {
+        margin-bottom: 50px;
+    }
+
+    .laptops__btn {
+        margin-bottom: 50px;
+    }
+
+    .ps5__img {
+        width: 100%;
+    }
+
+    .xbox__title {
+        font-size: 35px;
+    }
+
+    .xbox__desc {
+        font-size: 18px;
+    }
+
+    .xbox__table {
+        max-height: 180px;
+    }
+
+
+    .seller__title {
+        margin-top: 0;
+    }
+
+    .phoneInfo__big {
+        max-height: 500px;
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .phoneInfo__shadow {
+        width: 80%;
+        background: radial-gradient(45% 63%, rgba(255, 255, 255, 0.35), rgba(0, 0, 0, 0.0) 80%);
+        bottom: 0;
+    }
+
+    .phoneInfo__col-7 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .phoneInfo__btns {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+}
+
+@media(max-width: 992px) {
+
+    .btn {
+        font-size: 13px;
+    }
+
+    .VR__col-5 {
+        text-align: center;
+    }
+
+    .VR__title {
+        text-align: center;
+    }
+
+    .VR__desc {
+        text-align: center;
+    }
+
+    .seller__row {
+        justify-content: space-around;
+    }
+
+    .seller__card {
+        max-width: 300px;
+        width: 100%;
+    }
+
+    .logl__link {
+        line-height: 20px;
+        font-size: 13px;
+        margin: 0 5px;
+    }
+
+    .logo__links {
+        flex-wrap: wrap;
+    }
+
+    .slider__title {
+        line-height: 50px;
+        font-size: 35px;
+    }
+
+    .slider__btn {
+        margin-top: 30px;
+    }
+
+    .imgs__title {
+        line-height: 16px;
+        font-size: 14px;
+        letter-spacing: normal;
+    }
+
+    .imgs__title.bottom {
+        line-height: 30px;
+        bottom: 28px;
+    }
+
+    .imgs__title.Xiaomi {
+        line-height: 16px;
+    }
+
+    .imgs__price {
+        letter-spacing: normal;
+        line-height: 20px;
+        font-size: 18px;
+        bottom: 10px !important;
+    }
+
+    .discount.discount__bottom {
+        bottom: 8px;
+    }
+
+    .discount {
+        letter-spacing: normal;
+        width: 33px;
+        height: 33px;
+        line-height: 16px;
+        font-size: 13px;
+    }
+
+    .phone__title {
+        margin: 30px 0 30px;
+    }
+
+    .slider__btn {
+        margin-bottom: 30px;
+    }
+
+    .ps5__logo {
+        margin-top: 30px;
+    }
+
+    .xbox__info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .xbox__title {
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .xbox__desc {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .xbox__table {
+        max-height: 140px;
+    }
+
+    .xbox__btn {
+        position: static;
+        left: 20px;
+        top: 0;
+        bottom: auto;
+        margin: 30px auto 10px auto;
+    }
+
+    .seller__title {
+        margin-top: 50px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .ps5__title {
+        font-size: 40px;
+    }
+
+    .footer__nav {
+        justify-content: center;
+    }
+
+    .phoneInfo__shadow {
+        background: radial-gradient(55% 60%, rgba(255, 255, 255, 0.35), rgba(0, 0, 0, 0.0) 80%);
+    }
+
+}
+
+@media(max-width: 768px) {
+
+    .logo__icon {
+        font-size: 12px;
+    }
+
+    .btn {
+        font-size: 9px;
+    }
+
+    .slider__img {
+        max-width: 450px;
+    }
+
+    .imgs__left {
+        padding-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .imgs__right {
+        padding-left: 0;
+    }
+
+    .imgs__top {
+        padding-bottom: 0;
+        margin-top: 15px;
+    }
+
+    .bottom-img-L {
+        padding-right: 0;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .bottom-img-R {
+        padding-left: 0;
+    }
+
+    .imgs__title {
+        letter-spacing: 0.05em;
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .imgs__title.bottom {
+        line-height: 70px;
+        bottom: 30px;
+    }
+
+    .imgs__title.Xiaomi {
+        line-height: 30px;
+    }
+
+    .imgs__price {
+        letter-spacing: 0.05em;
+        font-size: 24px;
+        line-height: 70px;
+        top: 30px;
+    }
+
+    .imgs__price.bottom {
+        bottom: -2px !important;
+    }
+
+    .discount {
+        letter-spacing: 0.05em;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        font-size: 20px;
+    }
+
+    .discount.discount__bottom {
+        bottom: 20px !important;
+    }
+
+    .phone__title {
+        margin: 30px 0 30px;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .slider__btn {
+        margin: 30px auto;
+    }
+
+    .ps5__logo {
+        display: block;
+        margin: 30px auto 0;
+    }
+
+    .ps5__title {
+        text-align: center;
+        margin: 0;
+    }
+
+    .xbox__title {
+        font-size: 18px;
+        margin: 5px 10px;
+    }
+
+    .xbox__desc {
+        font-size: 13px;
+        margin-left: 10px;
+    }
+
+    .xbox__table {
+        max-height: 100px;
+    }
+
+    .seller__title {
+        margin-top: 30px;
+    }
+
+    .phoneInfo__shadow {
+        background: radial-gradient(65% 60%, rgba(255, 255, 255, 0.35), rgba(0, 0, 0, 0.0) 80%);
+    }
+
+    .phoneInfo__title {
+        font-size: 23px;
+        margin: 30px 0 20px 0;
+    }
+
+    .footer__navbar {
+        flex-direction: column;
+    }
+
+    .footer__navbar-logo {
+        margin-bottom: 20px;
+    }
+
+    .footer__icons {
+        padding-left: 0;
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+
+}
+
+@media(max-width: 576px) {
+
+    .logo__icon {
+        font-size: 16px;
+    }
+
+    .btn {
+        display: none;
+    }
+
+    .btn2 {
+        display: block;
+        width: auto;
+    }
+
+    .title {
+        font-size: 25px;
+    }
+
+    .info {
+        max-width: 250px;
+        width: 100%;
+        left: 5px;
+    }
+
+    .ps5__title {
+        font-size: 30px;
+    }
+
+    .xbox__title {
+        margin: 5px;
+    }
+
+    .xbox__desc {
+        font-size: 12px;
+        margin-left: 5px;
+    }
+
+    .xbox__table {
+        max-height: 100px;
+    }
+
+
+    .footer {
+        padding-top: 15px;
+    }
+
+    .footer__navbar {
+        flex-direction: column;
+    }
+
+    .footer__contact {
+        margin-top: 20px;
+        margin-right: 32px;
+    }
+
+    .phoneInfo__title {
+        text-align: center;
+        font-size: 20px;
+        margin: 0 0 20px 0;
+    }
+
+}
+
+@media(max-width: 476px) {
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar__logo {
+        margin-bottom: 20px;
+        width: auto;
+    }
+
+    .xbox__table {
+        max-height: 90px;
+    }
+
+    .phoneInfo__shadow {
+        background: radial-gradient(65% 50%, rgba(255, 255, 255, 0.35), rgba(0, 0, 0, 0.0) 80%);
+    }
+
+    .phoneInfo__btns {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .phoneInfo__btn {
+        margin: 20px 20px 0 0;
+    }
+
+    .VR__title {
+        font-size: 40px;
+    }
+
+}
+
+@media(max-width: 376px) {
+
+    .xbox__table {
+        max-height: 70px;
+    }
+
+    .phoneInfo__shadow {
+        background: radial-gradient(65% 45%, rgba(255, 255, 255, 0.35), rgba(0, 0, 0, 0.0) 80%);
+    }
+
+}
+
+@media(max-width: 300px) {
+
+    .xbox__table {
+        max-height: 60px;
+    }
+
+    .VR__title {
+        font-size: 35px;
+    }
+
+}
